@@ -8,7 +8,6 @@ export default function Home() {
         <h1>SnapCart 🛒</h1>
         <p>Your neighbourhood online store</p>
       </header>
-
       <main className={styles.main}>
         <h2>Products</h2>
         <div className={styles.grid}>
@@ -23,9 +22,8 @@ export default function Home() {
           ))}
         </div>
       </main>
-
       <footer className={styles.footer}>
-        <p>SnapCart &copy; 2025 — Running on Kubernetes</p>
+        <p>SnapCart &copy; 2025 — Built by getrujillo 🚀</p>
       </footer>
     </div>
   );
